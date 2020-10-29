@@ -51,7 +51,7 @@ const sidebar = {
       ]
     },
     {
-      title: '可复用性&组合',
+      title: '可复用&组合',
       collapsable: false,
       children: [
         '/guide/mixins',
@@ -74,7 +74,7 @@ const sidebar = {
           ]
         },
         {
-          title: '组合 API',
+          title: '组合式 API',
           children: [
             '/guide/composition-api-introduction',
             '/guide/composition-api-setup',
@@ -206,7 +206,12 @@ const sidebar = {
 
 module.exports = {
   title: 'Vue.js',
-  description: 'Vue.js - The Progressive JavaScript Framework',
+  description: 'Vue.js - The 渐进式 JavaScript 框架',
+  locales: {
+    '/': {
+      lang: 'zh-CN'
+    }
+  },
   head: [
     [
       'link',
@@ -291,7 +296,7 @@ module.exports = {
         ]
       },
       {
-        text: 'API Reference',
+        text: 'API 参考',
         link: '/api/'
       },
       {
